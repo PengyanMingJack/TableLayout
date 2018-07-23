@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/main_appbar"
+            style="@style/TSB.ABL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <android.support.design.widget.CollapsingToolbarLayout
+                android:id="@+id/main_collapsing_toolbar"
+                style="@style/TSB.CTL"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@color/colorPrimary"
+                app:contentScrim="@color/colorPrimary"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+                app:scrimVisibleHeightTrigger="60dp"
+                app:statusBarScrim="@android:color/transparent"
+                app:toolbarId="@+id/tool_bar"
+                app:expandedTitleTextAppearance="@string/app_name"
+                app:titleEnabled="false">
+
+                <allvideo.pym.com.tablelayout.MyIndicator
+                    android:id="@+id/indicator"
+                    style="@style/TSB.IV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="16dp"
+                    android:gravity="bottom|center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:tint="#20000000"
+                    app:layout_collapseMode="none"
+                    app:ms_tab_left="20dp"
+                    app:ms_tab_right="20dp"
+                    app:ms_tab_top="110dp"
+                    app:ms_tab_width="63dp"
+                    tools:ignore="ContentDescription">
+
+                    <TextView
+                        android:id="@+id/tv_tab1"
+                        android:minWidth="63dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="消息"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:textSize="32dp" />
+
+
+                    <TextView
+                        android:id="@+id/tv_tab2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minWidth="63dp"
+                        android:text="好友"
+                        android:gravity="center"
+                        android:textColor="#80ffffff"
+                        android:textSize="16dp" />
+                </allvideo.pym.com.tablelayout.MyIndicator>
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/tool_bar"
+                    style="@style/TSB.TB"
+                    contentPadding="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:contentInsetStart="0dp"
+                    app:layout_collapseMode="pin"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+                    <allvideo.pym.com.tablelayout.TopMyIndicator
+                        android:id="@+id/indicator2"
+                        style="@style/TSB.IV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingBottom="10dp"
+                        android:tint="#20000000"
+                        app:layout_collapseMode="none"
+                        app:ms_tab_left="32dp"
+                        app:ms_tab_right="32dp"
+                        app:ms_tab_top="25dp"
+                        app:ms_tab_width="80dp"
+                        tools:ignore="ContentDescription">
+
+                        <TextView
+                            android:id="@+id/tv_tab11"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="消息"
+                            android:textColor="#ffffff"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:id="@+id/tv_tab22"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="好友"
+                            android:textColor="#80ffffff"
+                            android:textSize="16dp" />
+                    </allvideo.pym.com.tablelayout.TopMyIndicator>
+                </android.support.v7.widget.Toolbar>
+
+            </android.support.design.widget.CollapsingToolbarLayout>
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"></android.support.v4.view.ViewPager>
+    </android.support.design.widget.CoordinatorLayout>
+</layout>

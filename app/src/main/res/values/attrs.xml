@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MSViewPagerIndicator">
+        <attr name="ms_tab_width" format="dimension" />
+        <attr name="ms_tab_left" format="dimension" />
+        <attr name="ms_tab_right" format="dimension" />
+        <attr name="ms_tab_top" format="dimension" />
+        <attr name="ms_tab_bottom" format="dimension" />
+        <attr name="ms_has_indicator" format="boolean" />
+    </declare-styleable>
+</resources>

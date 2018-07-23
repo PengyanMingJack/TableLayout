@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/main_appbar"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:gravity="bottom"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            app:elevation="0dp">
+
+            <allvideo.pym.com.tablelayout.MyIndicator
+                android:id="@+id/indicator"
+                style="@style/TSB.IV"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="16dp"
+                android:background="@color/colorPrimary"
+                android:gravity="bottom|center_horizontal"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:tint="#20000000"
+                app:layout_collapseMode="none"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:ms_tab_left="20dp"
+                app:ms_tab_right="20dp"
+                app:ms_tab_top="50dp"
+                app:ms_tab_width="63dp"
+                tools:ignore="ContentDescription">
+
+                <TextView
+                    android:id="@+id/tv_tab1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:minWidth="63dp"
+                    android:text="消息"
+                    android:textColor="#ffffff"
+                    android:textSize="32dp" />
+
+
+                <TextView
+                    android:id="@+id/tv_tab2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:minWidth="63dp"
+                    android:text="好友"
+                    android:textColor="#80ffffff"
+                    android:textSize="16dp" />
+            </allvideo.pym.com.tablelayout.MyIndicator>
+        </android.support.design.widget.AppBarLayout>
+
+        <allvideo.pym.com.tablelayout.TopMyIndicator
+            android:id="@+id/indicator2"
+            style="@style/TSB.IV"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:tint="#20000000"
+            android:visibility="visible"
+            app:layout_collapseMode="none"
+            app:ms_tab_left="32dp"
+            app:ms_tab_right="32dp"
+            app:ms_tab_top="30dp"
+            app:ms_tab_width="80dp"
+            tools:ignore="ContentDescription">
+
+            <TextView
+                android:id="@+id/tv_tab11"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="消息"
+                android:textColor="#ffffff"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tv_tab22"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="好友"
+                android:textColor="#80ffffff"
+                android:textSize="16dp" />
+        </allvideo.pym.com.tablelayout.TopMyIndicator>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"></android.support.v4.view.ViewPager>
+    </android.support.design.widget.CoordinatorLayout>
+</layout>

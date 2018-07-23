@@ -1,0 +1,4 @@
+#Wed Jul 18 21:01:57 CST 2018
+base.0=C\:\\Users\\Administrator\\Desktop\\ExamplesFromMyBlog-master\\TableLayout\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

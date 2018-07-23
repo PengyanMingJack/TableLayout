@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ExamplesFromMyBlog-master\\TableLayout\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ExamplesFromMyBlog-master\\TableLayout\\app\\src\\main\\res\\layout\\item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ExamplesFromMyBlog-master\\TableLayout\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ExamplesFromMyBlog-master\\TableLayout\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ExamplesFromMyBlog-master\\TableLayout\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ExamplesFromMyBlog-master\\TableLayout\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ExamplesFromMyBlog-master\\TableLayout\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ExamplesFromMyBlog-master\\TableLayout\\app\\src\\main\\res\\layout\\fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ExamplesFromMyBlog-master\\TableLayout\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main1.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ExamplesFromMyBlog-master\\TableLayout\\app\\src\\main\\res\\layout\\activity_main1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\ExamplesFromMyBlog-master\\TableLayout\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main2.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\ExamplesFromMyBlog-master\\TableLayout\\app\\src\\main\\res\\layout\\activity_main2.xml"
+    }
+]
